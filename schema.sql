@@ -28,3 +28,16 @@ CREATE TABLE users (
     FOREIGN KEY (created_by) REFERENCES users(id) ON DELETE SET NULL
 ) ENGINE=InnoDB;
 
+INSERT INTO users (
+    username,
+    email,
+    user_role,
+    user_status,
+    created_by
+) VALUES (
+    'admin_root',
+    'admin@imcapp.com',
+    'Administrador',
+    'Activo',
+    NULL
+);
