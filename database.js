@@ -8,3 +8,5 @@ const pool = mysql.createPool({
 }).promise();
 
 const result = await pool.query("SELECT * FROM users")
+
+console.log(result);
