@@ -5,14 +5,25 @@
   "type": "module",
   "main": "database.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solmuz/IMC_app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "", 
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solmuz/IMC_app/issues"
+  },
+  "homepage": "https://github.com/solmuz/IMC_app#readme",
   "dependencies": {
-    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
